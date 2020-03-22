@@ -15,6 +15,10 @@
     <tags>taucode webapi server nhibernate</tags>
     <dependencies>
       <group targetFramework=".NETStandard2.1">
+        <dependency id="FluentNHibernate" version="2.1.2" />
+        <dependency id="Inflector.NetStandard" version="1.2.2" />
+        <dependency id="TauCode.Domain.NHibernate" version="1.0.0-dev-2020-03-16-20-09" />
+        <dependency id="TauCode.WebApi.Server" version="1.0.0-dev-2020-03-21-18-46" />
       </group>
     </dependencies>
   </metadata>
