@@ -22,11 +22,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{C9C3070D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{603FB3ED-11D5-4BE6-B426-EC0A0784033C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{81D58368-3EC0-4114-AEE0-54E705A712D1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{81D58368-3EC0-4114-AEE0-54E705A712D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.WebApi.Server.NHibernate", "src\TauCode.WebApi.Server.NHibernate\TauCode.WebApi.Server.NHibernate.csproj", "{CE504160-8CF7-48E1-A34A-27634055EF25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Server.NHibernate", "src\TauCode.WebApi.Server.NHibernate\TauCode.WebApi.Server.NHibernate.csproj", "{CE504160-8CF7-48E1-A34A-27634055EF25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.WebApi.Server.NHibernate.Tests", "tests\TauCode.WebApi.Server.NHibernate.Tests\TauCode.WebApi.Server.NHibernate.Tests.csproj", "{C35FB536-7616-42D1-A5DA-02F7B1F4A3BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Server.NHibernate.Tests", "test\TauCode.WebApi.Server.NHibernate.Tests\TauCode.WebApi.Server.NHibernate.Tests.csproj", "{12438B75-61FA-4D71-A92B-D9DE0CF07B6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,17 +38,17 @@ Global
 		{CE504160-8CF7-48E1-A34A-27634055EF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE504160-8CF7-48E1-A34A-27634055EF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE504160-8CF7-48E1-A34A-27634055EF25}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C35FB536-7616-42D1-A5DA-02F7B1F4A3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C35FB536-7616-42D1-A5DA-02F7B1F4A3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C35FB536-7616-42D1-A5DA-02F7B1F4A3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C35FB536-7616-42D1-A5DA-02F7B1F4A3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12438B75-61FA-4D71-A92B-D9DE0CF07B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12438B75-61FA-4D71-A92B-D9DE0CF07B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12438B75-61FA-4D71-A92B-D9DE0CF07B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12438B75-61FA-4D71-A92B-D9DE0CF07B6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CE504160-8CF7-48E1-A34A-27634055EF25} = {603FB3ED-11D5-4BE6-B426-EC0A0784033C}
-		{C35FB536-7616-42D1-A5DA-02F7B1F4A3BB} = {81D58368-3EC0-4114-AEE0-54E705A712D1}
+		{12438B75-61FA-4D71-A92B-D9DE0CF07B6A} = {81D58368-3EC0-4114-AEE0-54E705A712D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD04B96C-FA5B-4AFD-BE2D-A736138995BC}
