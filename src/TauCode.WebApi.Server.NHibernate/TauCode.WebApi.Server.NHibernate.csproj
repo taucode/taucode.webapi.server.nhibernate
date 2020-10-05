@@ -6,9 +6,8 @@
 
   <ItemGroup>
     <PackageReference Include="FluentNHibernate" Version="2.1.2" />
-    <PackageReference Include="Inflector.NetStandard" Version="1.2.2" />
-    <PackageReference Include="TauCode.Domain.NHibernate" Version="1.3.0" />
-    <PackageReference Include="TauCode.WebApi.Server" Version="1.3.0" />
+    <PackageReference Include="TauCode.Domain.NHibernate" Version="1.3.2-dev-2020-10-05-09-13" />
+    <PackageReference Include="TauCode.WebApi.Server" Version="1.3.2-dev-2020-10-05-20-10" />
   </ItemGroup>
 
 </Project>
